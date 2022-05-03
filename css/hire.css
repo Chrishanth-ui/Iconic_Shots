@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.body{
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    
+}
+.logo {
+  width:350px;
+  height: auto;
+  padding-top: 0px;
+  padding-left: 50px;
+  cursor: pointer;
+}
+.navbar{
+  background-color: black;
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding-top: 10px;
+  padding-right: 50px;
+  position: relative;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+.navbar ul li a{
+  transition: all 0.3s case 8s;
+}
+
+.navbar ul li a:hover{
+ color: teal;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+form {
+  width: 40%;
+  margin: auto;
+}
+fieldset {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 0 5px #333;
+  background-color: #eee;
+}
+label {
+  display: block;
+  
+  margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],select{
+  width: calc(100% - 20px);
+  height: 20px;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+
+button {
+  width: 40%;
+  text-align: center;
+  margin: 0 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(15, 227, 235);
+  font-size: large;
+  font-weight: bold;
+}
+
